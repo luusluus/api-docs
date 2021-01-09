@@ -9,6 +9,19 @@ This repository contains the source code for Blocknet's [API documentation websi
 
 ## Getting Started
 
+Using Windows 10:
+
+Download & install ruby+devkit 2.4.7 x64 from here https://rubyinstaller.org/downloads/archives/.
+
+Download & install nodejs from here https://nodejs.org/en/
+
+```shell
+gem install bundler -v 1.16.1
+# from root directory of api-docs
+bundle install
+bundle exec middleman server
+```
+
 Using Linux or MacOS:
 
 ```shell
@@ -20,7 +33,7 @@ bundle exec middleman server
 vagrant up
 ```
 
-If you'd prefer to use Docker, instructions are available [in the wiki](https://github.com/lord/slate/wiki/Docker).
+If you'd prefer to use Docker, instructions are available [in the wiki](https://github.com/slatedocs/slate/wiki/Using-Slate-in-Docker).
 
 You can now see the docs at http://localhost:4567. This will reload automatically when changes are saved.
 
