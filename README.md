@@ -33,7 +33,7 @@ bundle exec middleman server
 vagrant up
 ```
 
-If you'd prefer to use Docker, instructions are available [in the wiki](https://github.com/lord/slate/wiki/Docker).
+If you'd prefer to use Docker, instructions are available [in the wiki](https://github.com/slatedocs/slate/wiki/Using-Slate-in-Docker).
 
 You can now see the docs at http://localhost:4567. This will reload automatically when changes are saved.
 
